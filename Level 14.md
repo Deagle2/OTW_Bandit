@@ -4,3 +4,18 @@ The password for the next level is stored in /etc/bandit_pass/bandit14 and can o
 Commands you may need to solve this level
 
 ssh, telnet, nc, openssl, s_client, nmap
+
+#
+
+`ssh bandit13@bandit.labs.overthewire.org -p 2220`
+
+`ls` gives sshkey.private
+
+`ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220`
+
+ssh : initiate an SSH session
+
+-i sshkey.private: The -i option specifies the private key to use for authentication. In this case, sshkey.private is the private key to access the bandit14 account.
+
+
+`cat /etc/bandit_pass/bandit14` as mentioned above
