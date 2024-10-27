@@ -18,4 +18,4 @@ ssh : initiate an SSH session
 -i sshkey.private: The -i option specifies the private key to use for authentication. In this case, sshkey.private is the private key to access the bandit14 account.
 
 
-`cat /etc/bandit_pass/bandit14` as mentioned above
+`cat /etc/bandit_pass/bandit14` as mentioned above gives flag
